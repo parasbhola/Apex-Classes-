@@ -11,3 +11,29 @@ public class ListDemo {
         //system.debug('My name is='+str);
     }
 } 
+
+
+public class ListDemo {
+   public void lisMethod(){
+        List<string> str = new List<string>();		
+       
+       sObject sobj = [SELECT Id, Name from Account Limit 1];
+       Boolean res;
+        str.add('Paras');
+        str.add('Raman');	
+        str.add('Cheetah');
+       
+        system.debug('Object type  =' +sobj.getSobjectType());
+        //system.debug('My name is='+str);
+    }
+}
+
+
+
+
+
+
+
+
+
+
