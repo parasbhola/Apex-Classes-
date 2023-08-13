@@ -94,6 +94,25 @@ public class ListDemo {
     }
 }
 
+7
+public class ListDemo {
+   public void lisMethod(){
+        List<string> str = new List<string>();		
+        List<string> str2 = new List<string>();	
+       sObject sobj = [SELECT Id, Name from Account Limit 1];
+       
+        str.add('xParas');
+        str.add('Raman');	
+        str.add(1,'India');
+       
+        str.sort();
+       
+        system.debug(str); 
+       
+        //sort value in the list
+    }
+}
+
 
 
 
