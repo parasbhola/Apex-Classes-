@@ -77,7 +77,22 @@ public class ListDemo {
     }
 }
 
-
+6
+public class ListDemo {
+   public void lisMethod(){
+        List<string> str = new List<string>();		
+       
+       sObject sobj = [SELECT Id, Name from Account Limit 1];
+       Boolean res;
+        str.add('Paras');
+        str.add('Raman');	
+        str.add('India');
+       
+        system.debug(str.size()); 
+        //system.debug('My name is='+str);
+        //shows size of the list
+    }
+}
 
 
 
