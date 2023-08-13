@@ -1,4 +1,4 @@
-GET OBJECT INDEX APEX
+//GET OBJECT INDEX APEX
 public class ListDemo {
    public void lisMethod(){
         List<string> str = new List<string>();		  
