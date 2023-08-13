@@ -1,4 +1,4 @@
-//GET OBJECT INDEX APEX
+1 //GET OBJECT INDEX APEX
 public class ListDemo {
    public void lisMethod(){
         List<string> str = new List<string>();		  
@@ -13,7 +13,7 @@ public class ListDemo {
 } 
 
 
-public class ListDemo {
+2 public class ListDemo {
    public void lisMethod(){
         List<string> str = new List<string>();		
        
