@@ -60,6 +60,22 @@ public class ListDemo {
     }
 }       
 
+5
+public class ListDemo {
+   public void lisMethod(){
+        List<string> str = new List<string>();		
+       
+       sObject sobj = [SELECT Id, Name from Account Limit 1];
+       Boolean res;
+        str.add('Paras');
+        str.add('Raman');	
+        str.add('India');
+       
+        system.debug(str.remove(1)); 
+        //system.debug('My name is='+str);
+        //it will remove Rama
+    }
+}
 
 
 
