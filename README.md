@@ -44,6 +44,23 @@ public class ListDemo {
     }
 }
 
+4    public class ListDemo {
+   public void lisMethod(){
+        List<string> str = new List<string>();		
+       
+       sObject sobj = [SELECT Id, Name from Account Limit 1];
+       Boolean res;
+        str.add('Paras');
+        str.add('Raman');	
+        str.add('India');
+       
+        system.debug(str.isEmpty()); 
+        //system.debug('My name is='+str);
+        //showing false as list is not emplty
+    }
+}       
+
+
 
 
 
