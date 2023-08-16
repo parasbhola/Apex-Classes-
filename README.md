@@ -114,6 +114,18 @@ public class ListDemo {
 }
 
 
+//list 
+public class ListDemo {
+   public void LisMethod(){
+       
+      List<Account> acclist = new list<Account>();
+       
+       acclist = [SELECT Id,Name FROM Account LIMIT 3];
+           
+          System.debug('acclist ' + + acclist);
+    }
+}
+
 
 
 
